@@ -373,3 +373,5 @@
 - Logo, a unidade não funciona para navegadores com fontes de outros tamanhos.
 - Existem dois grupos de medidas no CSS: Absolutas e Relativas.
 - A unidade `rem` mede o tamanho dos elementos de acordo com o elemento raiz.
+- Geralmente usamos uma escala de `16px` para calcular a conversão para `rem`.
+	- Para cada `16px`, atribuímos proporcionalmente `1rem`.
