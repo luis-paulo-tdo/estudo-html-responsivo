@@ -37,7 +37,7 @@ a {
 .cabecalho__menu__link {
     color: var(--cor-terciaria);
     font-family: var(--fonte-secundaria);
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 600;
 }
 
@@ -53,7 +53,7 @@ a {
     flex-direction: column;
     gap: 40px;
     text-align: justify;
-    width: 615px;
+    width: 50%;
 }
 
 .apresentacao__conteudo__titulo {
@@ -67,7 +67,7 @@ a {
 
 .apresentacao__conteudo__texto {
     font-family: var(--fonte-secundaria);
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 
 .apresentacao__conteudo__links {
@@ -80,29 +80,33 @@ a {
 
 .apresentacao__conteudo__links__subtitulo {
     font-family: var(--fonte-primaria);
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 400;
 }
 
-.apresentacao__conteudo__links__link {
+.apresentacao__conteudo__links__navegacao {
     border: 2px solid var(--cor-terciaria);
     border-radius: 8px;
     color: var(--cor-secundaria);
     display: flex;
     font-family: var(--fonte-secundaria);
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 600;
     gap: 16px;
     justify-content: center;
     padding: 21.5px 0;
     text-align: center;
     text-decoration: none;
-    width: 378px;
+    width: 50%;
 }
 
 .apresentacao__conteudo__links__link:hover {
     background-color: var(--cor-hover);
     cursor: pointer;
+}
+
+.apresentacao__imagem {
+    width: 50%;
 }
 
 .rodape {
