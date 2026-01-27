@@ -401,3 +401,8 @@
 - A sintaxe utilizada é a de um seletor, mas que define uma condição dentro: `@media(max-width:<valor>)`.
 - Quando a tela for de um determinado tamanho, por exemplo, podemos mudar o `flex-direction` para `column`.
 - Dentro do `flex-direction`, podemos mudar a ordem dos elementos com `row-reverse` e `column-reverse`.
+
+### 3.2. Cabeçalho Responsivo
+- Através de uma Media Query, podemos centralizar mais o cabeçalho para alinhá-lo aos layouts menores.
+- A centralização pode ser feita ajustando o `padding` e aplicando um flex `justify-content: center`.
+- Ao aplicar um Media Query, as demais propriedades sem Media são mantidas, como cores, bordas, etc. 
