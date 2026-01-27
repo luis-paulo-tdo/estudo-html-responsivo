@@ -44,6 +44,7 @@ a {
 .apresentacao {
     align-items: center;
     display: flex;
+    gap: 82px;
     justify-content: space-between;
     padding: 5% 15%;
 }
@@ -116,4 +117,10 @@ a {
     font-weight: 400;
     padding: 24px;
     text-align: center;
+}
+
+@media(max-width: 1200px) {
+    .apresentacao {
+        flex-direction: column-reverse;
+    }
 }

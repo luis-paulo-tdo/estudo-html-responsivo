@@ -385,3 +385,19 @@
 ### 2.1. Descubra a Super Unidade de Medida
 - A unidade de medida da porcentagem `%` é relativa ao elemento pai, e ajuda a melhorar a responsividade.
 - Ao alterar a propriedade `width`, automaticamente alteramos o `height` de qualquer elemento HTML.
+
+### 2.2. Figma Mobile
+- O novo desafio é prover responsividade: Capacidade do site de se adaptar a diferentes tamanhos de tela.
+- O conteúdo continuará organizado e elegante independente se for aberto via desktop, mobile ou tablet.
+- Através do Figma, conseguimos também obter informações que nos permitam tornar as páginas responsivas.
+
+## 3. Responsividade
+
+### 3.1. Media Queries
+- Uma boa prática para melhorar a responsividade, é ir diminuindo o layout e vendo o que pode ser ajustado.
+- Devemos garantir que os elementos HTML da página irão tenham gaps entre si, sem ficar colado um no outro.
+- A ideia também é ir trazendo elementos que ficam isolados nas laterais da página para a coluna principal.
+- As Media Queries podem nos ajudar a adaptar o CSS do layout de acordo com o tamanho que a tela assume.
+- A sintaxe utilizada é a de um seletor, mas que define uma condição dentro: `@media(max-width:<valor>)`.
+- Quando a tela for de um determinado tamanho, por exemplo, podemos mudar o `flex-direction` para `column`.
+- Dentro do `flex-direction`, podemos mudar a ordem dos elementos com `row-reverse` e `column-reverse`.
