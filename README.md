@@ -375,3 +375,13 @@
 - A unidade `rem` mede o tamanho dos elementos de acordo com o elemento raiz.
 - Geralmente usamos uma escala de `16px` para calcular a conversão para `rem`.
 	- Para cada `16px`, atribuímos proporcionalmente `1rem`.
+
+### 1.3. Aplicando o REM
+- A primeira propriedade onde podemos aplicar esta conversão é a `font-size`.
+- Podemos utilizar variáveis CSS para nos apoiar em números repetitivos.
+
+## 2. Adaptando Elementos
+
+### 2.1. Descubra a Super Unidade de Medida
+- A unidade de medida da porcentagem `%` é relativa ao elemento pai, e ajuda a melhorar a responsividade.
+- Ao alterar a propriedade `width`, automaticamente alteramos o `height` de qualquer elemento HTML.
