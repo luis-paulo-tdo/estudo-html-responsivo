@@ -406,3 +406,12 @@
 - Através de uma Media Query, podemos centralizar mais o cabeçalho para alinhá-lo aos layouts menores.
 - A centralização pode ser feita ajustando o `padding` e aplicando um flex `justify-content: center`.
 - Ao aplicar um Media Query, as demais propriedades sem Media são mantidas, como cores, bordas, etc. 
+
+## 4. Responsividade e GitHub
+
+### 4.1. Conteúdo Responsivo
+- Quanto menor for a largura da tela, mais queremos que ela ocupe o `width` para aproveitar o espaço.
+- O valor `auto` faz os elementos filhos acompanharem a largura do pai, eliminando qualquer lacuna.
+
+### 4.2. Criando uma Conta no GitHub
+- A criação de uma conta no GitHub ajudará no processo de publicação da página para ser vista por todos.
