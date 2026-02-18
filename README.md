@@ -415,3 +415,13 @@
 
 ### 4.2. Criando uma Conta no GitHub
 - A criação de uma conta no GitHub ajudará no processo de publicação da página para ser vista por todos.
+
+## 5. Repositório no GitHub
+
+### 5.1. Criando o Repositório
+- Um repositório é como uma pasta na núvem disponibilizada para o usuário guardar seus arquivos.
+- É recomendável armazenar apenas um único projeto por repositório para melhor organização.
+
+### 5.2. Colocando o Projeto no Ar
+- Através da plataforma Vercel, conseguimos publicar as páginas que construímos através do GitHub.
+- Por meio do cadastro na plataforma, conseguimos selecionar um repositório a ser publicado.
